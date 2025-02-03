@@ -1,7 +1,10 @@
-kaggle 
-kagglehub 
-pandas 
-mathplot 
-matplotlib 
-scikit-learn 
+kaggle
+kagglehub
+pandas
+mathplot
+matplotlib
+scikit-learn
 numpy
+pre-commit
+black
+ruff

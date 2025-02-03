@@ -1,0 +1,16 @@
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 88
+select = [
+    "E",   # Pycodestyle errors
+    "F",   # PyFlakes
+    "W",   # Pycodestyle warnings
+    "I",   # Imports (isort)
+    "C90", # McCabe complexity
+    "UP",  # Pyupgrade
+    "DJ",  # Django
+]
+ignore = ["E203"]  # Black handles whitespace differently
