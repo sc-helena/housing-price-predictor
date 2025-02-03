@@ -14,7 +14,7 @@ Creates a simple linear regression model to predict housing prices in California
 * Project Structure
 
 
-# Features 
+# Features
 * **Data Analysis:** Clean and explore housing data using NumPy and pandas.
 * **ML Model:** Train a regression model with Scikit-Learn.
 * **Model Evaluation:** Track performance metrics.
@@ -35,7 +35,10 @@ source .venv/bin/activate  # Linux/macOS
 .venv\Scripts\activate     # Windows
 
 # Install dependencies
-pip install -r requirements.txt 
+pip install -r requirements.txt
+
+# Install pre-commit hooks
+pre-commit install
 
 ```
 
@@ -51,5 +54,3 @@ pip install -r requirements.txt
     - Evaluate performance metrics.
 - **Run Predictions** (notebooks/run_model.ipynb):
     - Test the model with custom inputs.
-
-
