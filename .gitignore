@@ -1,3 +1,5 @@
 utils/__pycache__/
 src/utils/__pycache__/
 __pycache__
+data/strat_test_set.csv
+data/strat_train_set.csv
