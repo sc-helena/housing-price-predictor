@@ -8,7 +8,7 @@ def _get_project_dir():
     # Get the current script file path
     current_script_path = Path(__file__)
     # Get the project directory
-    parent_directory = current_script_path.parent.parent
+    parent_directory = current_script_path.parent.parent.parent
 
     return os.path.join(parent_directory, "assets/figures")
 
