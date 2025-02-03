@@ -46,7 +46,7 @@ pip install -r requirements.txt
 - **Data Loading & Preprocessing, Model Training** (notebooks/data_loader.ipynb):
     - Load the [Kaggle dataset](https://www.kaggle.com/datasets/camnugent/california-housing-prices).
     - Preprocess data (handling missing values, feature engineering).
-    - Train and save the Scikit-Learn model
+    - Train and save the Scikit-Learn model using [pickle](https://docs.python.org/3/library/pickle.html).
 - **Model Evaluation** (notebooks/model_evaluation.ipynb):
     - Evaluate performance metrics.
 - **Run Predictions** (notebooks/run_model.ipynb):
